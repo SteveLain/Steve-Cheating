@@ -1,18 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 
-.loader {
-  border: 20px solid #f3f3f3; /* red */
-  border-top: 20px solid #3498db; /* red */
-  border-radius: 50%;
-  width: 70px;
-  height: 70px;
-  animation: spin 0.8s linear infinite;
-}
-
-@keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
-}
 * {
   margin: 0;
   padding: 0;
